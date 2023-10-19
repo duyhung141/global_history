@@ -14,17 +14,17 @@
                         <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton3" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false">Dashboard<span class="sr-only">(current)</span></a>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink_1">
-                            <a class="dropdown-item" href="#">Action in</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                            <a class="dropdown-item" href="#">Lich Su Chau A</a>
+                            <a class="dropdown-item" href="#">Lich Su Chau Au</a>
+                            <a class="dropdown-item" href="#">Lich Su Chau Phi</a>
                         </div>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link" href="blog.html">Blog <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="single.html">Single <span class="sr-only">(current)</span></a>
-                    </li>
+{{--                    <li class="nav-item ">--}}
+{{--                        <a class="nav-link" href="single.html">Single <span class="sr-only">(current)</span></a>--}}
+{{--                    </li>--}}
                     <li class="nav-item ">
                         <a class="nav-link" href="single.html">Event <span class="sr-only">(current)</span></a>
                     </li>
