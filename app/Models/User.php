@@ -21,6 +21,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'role'
     ];
 
     /**
@@ -42,4 +43,16 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+
+
+    public function scopeSearch($query,$request){
+        if($request->has("search")&& $request->get("search") != ""){
+            $search = $request->get("search");
+            $query->where("name","like","%$search%")
+                ->orWhere("email","like","%$search%");
+        }
+        return $query;
+    }
+
+
 }

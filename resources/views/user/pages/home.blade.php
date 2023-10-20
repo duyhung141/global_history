@@ -1,4 +1,4 @@
-@extends("layouts.app")
+@extends("user.layouts.app")
 @section("content")
     <div class="container-fluid paddding mb-5">
         <div class="row mx-0">

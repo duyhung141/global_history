@@ -45,14 +45,19 @@
                 <div class="clearfix"></div>
             </div>
             <div class="col-12 col-md-3">
-                <ul class="nav-item">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Register</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Login</a>
-                    </li>
-                </ul>
+                @auth()
+                    <a href="#"><i class="fa fa-user"></i> {{ auth()->user()->name }}</a>
+                    <form id="form-logout" action="{{ route("logout") }}" method="post">
+                        @csrf
+                    </form>
+                    <a href="javascript:void(0);" onclick="$('#form-logout').submit();">
+                        <i class="fa fa-align-right"></i>Logout</a>
+                @endauth
+                @guest()
+                    <a href={{ route("login") }}><i class="fa fa-user"></i> Login</a>
+                    <a href={{ route("register") }}><i class="fa fa-user"></i> Register</a>
+
+                @endguest
             </div>
         </div>
     </div>

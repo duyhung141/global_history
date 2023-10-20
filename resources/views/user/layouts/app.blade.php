@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield("title","Global History")</title>
     @yield("before_css")
-    @include("layouts.head")
+    @include("user.layouts.head")
     @yield("after_css")
 </head>
 
@@ -20,16 +20,16 @@
 {{--    <div class="loader"></div>--}}
 {{--</div>--}}
 
-@include("layouts.header")
+@include("user.layouts.header")
 
-@include("layouts.nav")
+@include("user.layouts.nav")
 
 @yield("content")
 
-@include("layouts.footer")
+@include("user.layouts.footer")
 
 @yield("before_js")
-@include("layouts.scripts")
+@include("user.layouts.scripts")
 @yield("after_js")
 </body>
 </html>
