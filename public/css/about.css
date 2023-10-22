@@ -1,0 +1,51 @@
+.introduce {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(../images/history.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.btn-orange{
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    color: #fff;
+}
+
+.divider-mission {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
+}
+
+.core-value{
+    background: rgba(92, 77, 66, 1);
+    color: #f0ad4e;
+}
+
+history-exhibition-layout-img{
+    display: flex;
+}
+
+.history-exhibition-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.history-exhibition-img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.history-btn:hover{
+    background-color: #f4623a;
+    border-color: #eea236;
+    color: #fff;
+    cursor: pointer;
+}
+

@@ -8,5 +8,6 @@
 <link href="css/owl.theme.default.css" rel="stylesheet" type="text/css"/>
 <!-- Bootstrap CSS -->
 <link href="css/style_1.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="{{asset('css/about.css')}}">
 <!-- Modernizr JS -->
 <script src="js/modernizr-3.5.0.min.js"></script>

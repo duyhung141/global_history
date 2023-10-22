@@ -29,7 +29,7 @@
                         <a class="nav-link" href="single.html">Event <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="single.html">About Us <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="{{asset(route('home.about'))}}">About Us <span class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item ">

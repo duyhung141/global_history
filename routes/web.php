@@ -15,9 +15,7 @@ use App\Http\Controllers\AdminController;
 */
 
 Route::get('/',[HomeController::class,"home"]);
-
-Route::get('/',[HomeController::class,"home"]);
-
+Route::get('about',[HomeController::class,"about"])->name('home.about');
 Route::middleware(["auth","is_admin"])->prefix("admin")->group(function (){
     include_once "admin.php";
 });
@@ -25,3 +23,5 @@ Route::middleware(["auth","is_admin"])->prefix("admin")->group(function (){
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
