@@ -12,83 +12,77 @@
                     diverse source
                     of historical information, encompassing both national history and other aspects of history, such as
                     landmarks, artifacts, sports, and art.</p>
-                <a class="btn btn-orange btn-xl" href="about">Find Out More</a>
             </div>
         </div>
     </div>
 
     {{--    start mission--}}
     <div class="container px-4 px-lg-5 pt-5 mb-5">
-        <h2 class="text-center mt-0">Missions</h2>
-        <hr class="divider-mission">
         <div class="row gx-4 gx-lg-5">
-            <div class="col-lg-7 col-sm-6">
-                <div class="mt-5 ">
-                    <img class="img-fluid" src="{{asset('/images/history_mission.jpg')}}" alt="mission">
+            <div class="col-lg-8 col-sm-7">
+                <div class="">
+                    <h2 class="text-start mt-0">
+                        About Us
+                        <hr class="divider-mission">
+                    </h2>
                 </div>
-            </div>
-            <div class="col-lg-5 col-sm-7 text-start">
-                <div class="mt-5">
-                    <h4 class="h4 mb-2 fs-3 fw-semibold text-xl-left" style="font-size: 2.3rem">Our missions</h4>
-                    <p class="text-muted mb-0" style="font-size: 1.2rem">Are to help people explore and discover the
+                <div class="mt-5 ">
+                    <p class="text-muted mb-0 text-justify" style="font-size: 1.2rem">We are to help people explore and
+                        discover the
                         history of everything in the
                         world, from nations to cultures, from ancient artifacts to arts and sports.</p>
+                    <p class="text-muted mb-0 text-justify" style="font-size: 1.2rem; font-weight: lighter">We respect
+                        the
+                        diversity and richness of history. We are committed to delivering reliable and engaging
+                        information to our users. We encourage learning and interaction within the historical
+                        community.</p>
+                    <p class="text-muted mb-0 text-justify" style="font-size: 1.2rem">We regularly organize historical
+                        exhibitions to
+                        provide an exciting learning experience for everyone. Additionally, we offer opportunities for
+                        readers to contribute articles on history and share their knowledge with the community.</p>
                 </div>
             </div>
+
+            <div class="col-lg-4 col-sm-5">
+                <div class="px-3 py-2 about-border" style="position: relative">
+                    <hr class="divider-post">
+                    <h4 class="text-capitalize">Popular post</h4>
+                </div>
+                <div class="">
+                    <ul class="list-group">
+                        <li class="list-group-item w-full">
+                            <div class="w-25" style="display: flex">
+                                <img class="history-exhibition-img" src="{{asset('/images/history_exhibition.jpg')}}"
+                                     alt="exhibition_1">
+
+                            </div>
+                            <p class="ml-1">Exhibition 1 in Korea</p>
+                        </li>
+
+                        <li class="list-group-item w-full">
+                            <div class="w-25" style="display: flex">
+                                <img class="history-exhibition-img" src="{{asset('/images/history_exhibition.jpg')}}"
+                                     alt="exhibition_1">
+
+                            </div>
+                            <p class="ml-1">Exhibition 1 in Korea</p>
+                        </li>
+
+                        <li class="list-group-item w-full">
+                            <div class="w-25" style="display: flex">
+                                <img class="history-exhibition-img" src="{{asset('/images/history_exhibition.jpg')}}"
+                                     alt="exhibition_1">
+
+                            </div>
+                            <p class="ml-1">Exhibition 1 in Korea</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
     </div>
     {{--    end mission--}}
-
-    {{--    start core value--}}
-    <div class="core-value py-5 mb-5">
-        <div class="container px-4 px-lg-5">
-            <h2 class="text-center mt-0">Core values</h2>
-            <hr class="divider-mission">
-            <div class="text-center p-4">
-                <p class="text-white mb-0" style="font-size: 1.2rem; font-weight: lighter">We respect the
-                    diversity and richness of history. We are committed to delivering reliable and engaging
-                    information to our users. We encourage learning and interaction within the historical
-                    community.</p>
-            </div>
-        </div>
-
-    </div>
-    {{--    end core value--}}
-
-    {{--    start exhibition--}}
-    <div class="container px-4 px-lg-5 pt-5 mb-5">
-        <h2 class="text-center mt-0">Exhibition</h2>
-        <hr class="divider-mission">
-
-        <div class="text-center px-5">
-            <div class="px-5">
-                <p class="text-muted mb-0" style="font-size: 1.2rem">We regularly organize historical exhibitions to
-                    provide an exciting learning experience for everyone. Additionally, we offer opportunities for
-                    readers to contribute articles on history and share their knowledge with the community.</p>
-            </div>
-        </div>
-        <div class="mt-5" style="display: flex">
-            <div class="w-25 ">
-                <img class="history-exhibition-img" src="{{asset('/images/history_exhibition.jpg')}}" alt="exhibition_1">
-            </div>
-            <div class="w-25">
-                <img class="history-exhibition-img" src="{{asset('/images/history_exhibition2.jpg')}}" alt="exhibition_2">
-            </div>
-            <div class="w-25">
-                <img class="history-exhibition-img" src="{{asset('/images/history_exhibition3.jpg')}}" alt="exhibition_3">
-            </div>
-            <div class="w-25">
-                <img class="history-exhibition-img" src="{{asset('/images/history_exhibition4.jpg')}}" alt="exhibition_4">
-            </div>
-        </div>
-
-        <div class="text-center mt-5">
-            <div class="">
-               <a class="btn btn-orange history-btn text-white px-5 py-3">Do you want to create articles?</a>
-            </div>
-        </div>
-    </div>
-    {{--    end exhibition--}}
 
 
 @endsection
